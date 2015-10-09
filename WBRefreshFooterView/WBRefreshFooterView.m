@@ -101,7 +101,7 @@ typedef NS_ENUM(NSInteger, WBRefreshFooterState) {
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    CGFloat height = scrollView.contentOffset.y + CGRectGetHeight(scrollView.bounds);
+    CGFloat height = scrollView.contentOffset.y + CGRectGetHeight(scrollView.bounds) - scrollView.contentInset.bottom;
     CGFloat delta = height - scrollView.contentSize.height;
     if (delta > WBDragingThreshold && scrollView.isTracking && _refreshState == WBRefreshFooterStateNormal) {
         _refreshState = WBRefreshFooterStateDraging;
