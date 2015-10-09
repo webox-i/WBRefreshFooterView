@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>002FD11C-AE33-4A62-AE48-6DAA58D380AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WBRefreshFooterViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433</key>
+		<string>https://github.com/webox-i/WBRefreshFooterViewDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WBRefreshFooterViewDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/webox-i/WBRefreshFooterViewDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WBRefreshFooterViewDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
