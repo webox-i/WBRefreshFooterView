@@ -8,7 +8,8 @@
 
 #import "WBRefreshFooterView.h"
 
-static NSInteger WBDragingThreshold = 10;
+static const NSInteger WBDragingThreshold = 10;
+static NSString *WBContentOffsetKey = @"contentOffset";
 
 static NSString *WBNormalTitle = @"加载更多";
 static NSString *WBDragingTilte = @"松开立即刷新";
@@ -58,7 +59,7 @@ typedef NS_ENUM(NSInteger, WBRefreshFooterState) {
     [super willMoveToSuperview:newSuperview];
     
     if ([self.superview isKindOfClass:[UIScrollView class]]) {
-        [self.superview removeObserver:self forKeyPath:@"contentOffset"];
+        [self.superview removeObserver:self forKeyPath:WBContentOffsetKey];
     }
 }
 
@@ -67,7 +68,7 @@ typedef NS_ENUM(NSInteger, WBRefreshFooterState) {
 
     if ([self.superview isKindOfClass:[UIScrollView class]]) {
         UIScrollView *scrollView = (UIScrollView *)self.superview;
-        [scrollView addObserver:self forKeyPath:@"contentOffset" options:0 context:nil];
+        [scrollView addObserver:self forKeyPath:WBContentOffsetKey options:0 context:nil];
     }
 }
 
@@ -87,7 +88,7 @@ typedef NS_ENUM(NSInteger, WBRefreshFooterState) {
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
 {
-    if (object == self.superview && [keyPath isEqualToString:@"contentOffset"]) {
+    if (object == self.superview && [keyPath isEqualToString:WBContentOffsetKey]) {
         if ([self.superview isKindOfClass:[UIScrollView class]]) {
             UIScrollView *scrollView = (UIScrollView *)self.superview;
             [self scrollViewDidScroll:scrollView];
