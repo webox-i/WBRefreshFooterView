@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E6C2A39EFC303262A5DD5AE032ACA804FC9BE6BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E6C2A39EFC303262A5DD5AE032ACA804FC9BE6BE" : 0,
+    "C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "002FD11C-AE33-4A62-AE48-6DAA58D380AE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E6C2A39EFC303262A5DD5AE032ACA804FC9BE6BE" : "WBRefreshFooterView\/",
+    "C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433" : "WBRefreshFooterViewDemo"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WBRefreshFooterViewDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WBRefreshFooterViewDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/webox-i\/WBRefreshFooterViewDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7C2D16A29BEE2EDAEF99DE606EB12630E4EE433"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/webox-i\/WBRefreshFooterView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6C2A39EFC303262A5DD5AE032ACA804FC9BE6BE"
+    }
+  ]
+}

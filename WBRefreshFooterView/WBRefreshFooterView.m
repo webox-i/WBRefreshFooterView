@@ -10,8 +10,8 @@
 
 static const NSInteger WBDragingThreshold = 10;
 
-static NSString *WBNormalTitle = @"加载更多";
-static NSString *WBDragingTilte = @"松开立即刷新";
+static NSString *WBNormalTitle = @"上拉加载更多";
+static NSString *WBDragingTilte = @"松开立即加载";
 static NSString *WBLoadingTitle = @"加载中...";
 
 typedef NS_ENUM(NSInteger, WBRefreshFooterState) {
